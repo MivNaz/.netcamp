@@ -45,7 +45,7 @@ namespace NetCampWeb
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            //Projenin konfigürasyonu burada yapılır. 
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
