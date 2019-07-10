@@ -21,3 +21,13 @@ C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2
 C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.RazorTargetAssemblyInfo.cache
 C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.RazorTargetAssemblyInfo.cs
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\bin\Debug\netcoreapp2.2\NetCampWeb.pdb
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\bin\Debug\netcoreapp2.2\NetCampWeb.Views.dll
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\bin\Debug\netcoreapp2.2\NetCampWeb.Views.pdb
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.Views.pdb
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.dll
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.pdb
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\NetCampWeb.csproj.CopyComplete
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\Razor\Views\Ogrenci\List.g.cshtml.cs
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\Razor\Views\Ogrenci\Insert.g.cshtml.cs
+C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\obj\Debug\netcoreapp2.2\Razor\Views\Ogrenci\Update.g.cshtml.cs

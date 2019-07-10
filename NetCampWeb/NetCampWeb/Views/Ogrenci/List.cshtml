@@ -1,0 +1,42 @@
+﻿@model List<NetCampWeb.Models.Entities.Ogrenci>
+@{
+    ViewData["Title"] = "Öğrenci Listesi";
+}
+
+<h2>
+    Öğrenci Listesi
+    <a class=" btn btn-info float-right" asp-controller="Ogrenci" asp-action="Insert"> Ekle </a>
+
+
+    <a class=" btn btn-info float-right" asp-controller="Ogrenci" asp-action="Update"> Güncelle </a>
+</h2>
+<table>
+    <tr>
+        <td></td>
+        <td>Id</td>
+        <td>Ad Soyad</td>
+        <td>Yaş</td>
+        <td>İşlem</td>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.kullanici_adi</td>
+            <td>@item.Id</td>
+            <td>@item.Adi @item.Soyadi</td>
+            <td>@item.Yasi</td>
+            <td>
+                <a class="btn btn-info" asp-controller="Ogrenci" asp-action="Update" asp-route-id="@item.Id"> Güncelleme </a>
+                <a class="btn btn-danger" asp-controller="Ogrenci" asp-action="Delete" asp-route-id="@item.Id"> Sil </a>
+            </td>
+        </tr>
+    }
+
+</table>
+@*@foreach (var item in Model)  //Bu model türediği yerdeki model büyük harf şeklinde verdiği için üstte  küçük m ile yazsakta. Aşağıda 'M' şekline çalıştı.
+{
+    <p>@item.Adi @item.Soyadi @item.Yasi @item.Id</p>
+}*@
+

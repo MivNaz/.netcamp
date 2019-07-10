@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NetCampWeb.Models.Services;
 
 namespace NetCampWeb
 {
@@ -30,6 +31,8 @@ namespace NetCampWeb
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddSingleton(new OgrenciServisi());
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -51,10 +54,17 @@ namespace NetCampWeb
 
             app.UseMvc(routes =>
             {
+             //   routes.MapRoute(
+             //name: "ogrenciguncelle",
+             //template: "ogrenci/Update/{ogrenciId}");
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+
             });
+                 
         }
     }
 }

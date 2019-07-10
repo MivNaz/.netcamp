@@ -23,8 +23,13 @@ using NetCampWeb.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\DELL4\source\repos\.netcamp\NetCampWeb\NetCampWeb\Views\_ViewImports.cshtml"
+using NetCampWeb.Models.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ccf9d163d04999da691ac8e24add865cd9b2b780", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6451350d35471db4a381dbec4bab0aae54dd36c8", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
